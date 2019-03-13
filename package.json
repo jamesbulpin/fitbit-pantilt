@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "182c590a-0bab-4ba2-a6da-cf62012ae78c",
+    "appType": "app",
+    "appDisplayName": "PanAndTilt",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "PanAndTilt"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}
