@@ -11,7 +11,7 @@ messaging.peerSocket.onerror = (err) => {
 
 messaging.peerSocket.onmessage = (evt) => {
   console.log(JSON.stringify(evt.data));
-  fetch("http://10.0.0.138:9090/", {method:"POST", body:JSON.stringify(evt.data)}).then(function(resp) {}).catch(function (error) {});
+  fetch("http://10.80.3.58:9090/", {method:"POST", body:JSON.stringify(evt.data)}).then(function(resp) {}).catch(function (error) {});
 }
 
 function sendMessage() {
